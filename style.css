@@ -54,3 +54,30 @@ p{
     background-image: url("https://images.unsplash.com/photo-1464195085758-89f3e55e821e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=869&q=80");
 }
 
+/* CSS page History */ 
+
+nav {
+    display: flex;
+    background-color: #1a2b44;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+  
+  }
+   
+  ul {
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      color: whitesmoke;
+  }
+  
+  a {
+      color: whitesmoke;
+      text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #a77252;
+  }
