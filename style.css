@@ -87,6 +87,7 @@ p{
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
+
 .product{
     height: 20rem; 
     width: 20rem;
@@ -96,4 +97,42 @@ p{
     align-items: center;
 
 }
+
+
+/* CSS HISTORY */
+
+nav {
+    display: flex;
+    background-color: #1a2b44;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+  
+  }
+   
+  ul {
+      list-style-type: none;
+      display: flex;
+      background-color: #1a2b44;
+      flex-direction: column;
+      gap: 6px;
+      color: whitesmoke;
+  }
+  
+  a {
+      color: whitesmoke;
+      text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #a77252;
+  }
+
+  .footer {
+     background-color: #1a2b44;
+  }
+
+  .texteengagement {
+    background-color: #8cb191;
+  }
 
