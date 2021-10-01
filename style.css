@@ -54,7 +54,9 @@ p{
     width: 100%;
 	height: 30rem;
     display: flex;
-    align-items: flex-end;
+    flex-direction: column; 
+    align-items: flex-end;  
+    justify-content: flex-end;
     padding-bottom: 2rem;
     background-image: url("./Images/slide/cookie-slide.jpeg");
     background-size: cover;
@@ -70,6 +72,7 @@ p{
     display:flex;
     align-items: flex-end;
     padding-bottom: 5rem;
+
 }
 
 
