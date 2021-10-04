@@ -86,6 +86,7 @@ p{
     padding-right: 10rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
+<<<<<<< HEAD
 }
 
 .product{
@@ -161,3 +162,55 @@ text-align: left;
     display: flex;
     text-align: right;
 }
+=======
+}
+
+.product{
+    height: 20rem; 
+    width: 20rem;
+    border-radius: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* CSS HISTORY */
+
+nav {
+    display: flex;
+    background-color: #1a2b44;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+  
+  }
+   
+  ul {
+      list-style-type: none;
+      display: flex;
+      background-color: #1a2b44;
+      flex-direction: column;
+      gap: 6px;
+      color: whitesmoke;
+  }
+  
+  a {
+      color: whitesmoke;
+      text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #a77252;
+  }
+
+  .footer {
+     background-color: #1a2b44;
+  }
+
+  .texteengagement {
+    background-color: #8cb191;
+  }
+
+>>>>>>> main
