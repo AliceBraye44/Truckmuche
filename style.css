@@ -1,131 +1,163 @@
-<!DOCTYPE html>
+body{
+    font-family: Lato, sans-serif;
+    text-align: center;
+}
 
-<html>
+h2{
+font-size: 60px;
+color: #1a2b44 ;}
 
-<head>
+button {
+    
+    background: #a77252; 
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-right: auto;
+    margin-left: auto;
+   
+}
 
-    <head>
+.apropos{
+    margin-left: 5rem;
+    margin-right: 5rem;
 
-        <meta charset="UTF-8">
-        
-        <title>Truckmuche</title>
-        
-        <link href="style.css" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-        </head>
-</head>
+}
+.reference{
+    background: #8cb191 ;
+    padding: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-style: italic;
+    color: #1a2b44;
+    font-size: 18px;
+}
+#quote{
+    text-align: center;
+}
 
-<nav>
-    <img class="logo" src="image/Logo_Bleu_ST.png" height="200px" width="200px">
-    <img class="marque" src="image/Titre_Bleu.png" height="200px" width="200px">
-    <ul>
-        <li><a href="home.html"> Home</a></li>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="history">History</a></li>
-    </ul>
-</nav>
+#signature{
+    text-align: right ;
+}
 
-<body>
+p{
+    padding-left: 1rem;
+    padding-right: 1rem;;
+}
 
-<h2>Notre menu</h2>
-<h3>pour une bonne tranche de plaisir</h3>
+.caroussel{
+    width: 100%;
+	height: 30rem;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end;  
+    justify-content: flex-end;
+    padding-bottom: 2rem;
+    background-image: url("./Images/slide/cookie-slide.jpeg");
+    background-size: cover;
+}
 
-<div>
-<h4>LES COOKIES</h4>
-<div class="produits1">
-    <img src="images/Rectangle/CookieClassique_R.png" alt="Cookies classiques" width="480"/>
-    <h5>Cookies classiques</h5>
-    <p>Classiques mais terriblement bons ! </p>
+.foodtruck{
+    margin-left:auto;
+    margin-right: auto;
+    background-image: url("./Images/slide/foodtruck-slide.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:30rem;
+    display:flex;
+    align-items: flex-end;
+    padding-bottom: 5rem;
 
-</div>
+}
 
-<div class="produits2">
-    <h5>Cookies cacahuète</h5>
-    <p>Cacahuètes entières et beurre de cacahuète, double plaisir coupable ! </p>
-    <img src="images/Rectangle/CookieCacahuete_R.png" alt="Cookies cacahuète" width="480"/>
 
-</div>
+.products{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5rem;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
 
-<div class="produits1">
-    <img src="images/Rectangle/CookiePecan.png" alt="Cookies pécan" width="480"/>
-    <h5>Cookies pécan</h5>
-    <p>Plus américains, tu meurs ! </p>
+.product{
+    height: 20rem; 
+    width: 20rem;
+    border-radius: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-</div>
+}
 
-<h4>LES ORIGINAUX</h4>
-<div class="produits2">
-        <h5>Biscuits amaretti</h5>
-        <p>La gourmandise croustillante au bon goût d'amande amère </p>
-        <img src="images/Rectangle/Amaretti_R.png" alt="Biscuits amaretti" width="480"/>
 
-</div>
+/* CSS HISTORY */
 
-<div class="produits1">
-    <img src="images/Rectangle/Cannele_R.png" alt="Canelés" width="480"/>
-    <h5>Canelés</h5>
-    <p>Une belle coque caramélisée et un cœur tout tendre, vanillés et rhumés à souhait ! </p>
+nav {
+    display: flex;
+    background-color: #1a2b44;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+  
+  }
+   
+  ul {
+      list-style-type: none;
+      display: flex;
+      background-color: #1a2b44;
+      flex-direction: column;
+      gap: 6px;
+      color: whitesmoke;
+  }
+  
+  a {
+      color: whitesmoke;
+      text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #a77252;
+  }
 
-</div>
+  .footer {
+     background-color: #1a2b44;
+  }
 
-<div class="produits2">
-    <h5>Chouquettes</h5>
-    <p>Tendres et légères comme un nuage, le plus dur c'est de ne pas en reprendre ! </p>
-    <img src="images/Rectangle/Chouquette_R.png" alt="Chouquettes" width="480"/>
+  .texteengagement {
+    background-color: #8cb191;
+  }
 
-</div>
 
-<div class="produits1">
-    <img src="images/Rectangle/FinancierFramboise_R.png" alt="Financiers framboise" width="480"/>
-    <h5>Financiers framboise</h5>
-    <p>Avec des framboises dessus comme des rubis précieux ! </p>
+ /* CSS MENU */
 
-</div>
+h3 {
+    font-size: 28px;
+    color: #a77252 ;
 
-<div class="produits2">
-    <h5>Financiers</h5>
-    <p>Beaux comme des lingots, ils vont vous mettre à l'amande ! </p>
-    <img src="images/Rectangle/Fianancier_R.png" alt="Financiers" width="480"/>
+}
 
-</div>
+h4 {
+    text-align: left;
+    font-size: 25px;
+    background-color: #8cb191;
+    padding: 20px;
+}
 
-    <h4>LES CLASSIQUES</h4>
-<div class="produits1">
-    <img src="images/Rectangle/LangueChat_R.png" alt="Langues de chat" width="480"/>
-    <h5>Langues de chat</h5>
-    <p>On ne donne pas sa langue de chat au chat, on la dévore ! </p>
+.produits1 {
+display: flex;
+text-align: left;
+}
 
-</div>
-
-<div class="produits2">
-    <h5>Petit LU nantais salés</h5>
-    <p>Parfaits pour un apéro entre amis, pur nantais ! </p>
-    <img src="images/Rectangle/PetitLu_R.png" alt="Petit LU nantais salés" width="480"/>
-</div>
-
-<div class="produits1">
-    <img src="images/Rectangle/RocherCoco_R.png" alt="Rochers Coco" width="480"/>
-    <h5>Rochers Coco</h5>
-    <p>Fondants et addictifs, attention danger ! </p>
-
-</div>
-
-<div class="produits2">
-    <h5>Sablés bretons au beurre salé</h5>
-    <p>Croustillants et bien beurrés, la gourmandise à la bretonne ! </p>
-    <img src="images/Rectangle/SableBreton_R.png" alt="Sablés bretons au beurre salé" width="480"/>
-
-</div>
-
-<div class="footer">
-    <p>Copyright 2021 | Réalisé par A-J-N <br/>
-       Mentions légales | Politique de confidentialité</p>
-    </div>
-
-</body>
-
-</html>
+.produits2 {
+    display: flex;
+    text-align: right;
+}
