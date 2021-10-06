@@ -99,7 +99,7 @@ p{
 }
 
 
-/* CSS HISTORY */
+/* CSS Barre de navigation */
 
 nav {
     display: flex;
@@ -141,6 +141,15 @@ nav {
   .texteengagement {
     background-color: #8cb191;
     margin-bottom: none;
+    padding: 3px ;
+ }
+
+ .histoire1 {
+     padding: 3px;
+ }
+
+ .histoire2 {
+     padding: 3px;
  }
 
   /* Mise en page Marc*/
@@ -148,9 +157,10 @@ nav {
     position: relative;
     width: 300px;
     height: 300px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
 }
+
 .child1 {
     position: absolute;
     width: 100%;
@@ -159,12 +169,15 @@ nav {
     left: 0;
     opacity: 100%;
     background:#8cb191;
+    border-radius: 7%;
 }
 
 .marc {
     z-index: 1;
     margin: 30px ;
     height: 300px;
-    width: 280px;
+    width: 260px;
+    border-radius: 7%;
+    
 }
 
