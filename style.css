@@ -2,20 +2,21 @@
 
 @media only screen and (min-width : 767px) and (max-width : 1023px) {
     body {
-        background-color: yellow;  
-         
+        background-color: yellow;    
     }
 
     .caroussel{
         background-repeat: no-repeat;
     }
 
-
+/* KO*/ 
     .caroussel p{
         font-size: 20px;
         color: yellowgreen;
     }
 }
+
+
 /*mobile first : breakingpoint pour passage en desktop  */
 
 
@@ -36,18 +37,6 @@
     }
 }
 
-
-/* CSS commun */
-
-@media only screen and (min-width : 1024px) {
-    body {
-        background-color:red ;   
-    }
-
-    .caroussel{
-        background-repeat: no-repeat;
-    }
-}
 
 
 /* CSS commun */
