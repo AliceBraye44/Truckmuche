@@ -7,7 +7,7 @@ body{
     }
 
 h2{
-    font-size: 60px;
+    font-size: 34px;
     color: #1a2b44 ;}
 
 button {
@@ -202,14 +202,6 @@ a:hover {
         background-color: #a77252;
     }
 
-.footer {
-        background-color: #1a2b44;
-    }
-
-.texteengagement {
-        background-color: #8cb191;
-    }
-
 
  /* CSS MENU */
 
@@ -254,7 +246,7 @@ p {
 
 }
 
-* Mise en page du Footer*/ 
+/* Mise en page du Footer*/ 
   .footer {
      background-color: #1a2b44;
      display: flex;
@@ -268,7 +260,31 @@ p {
     background-color: #8cb191;
     margin-bottom: none;
     padding: 6px ;
+    border-radius: 7%;
  }
+
+ .pictos {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     gap: 30px;
+     justify-content: center;
+ }
+
+ .pictoVegan {
+     font-size: 0.8em;
+     color: bisque;
+ }
+
+ .pictoProduitsFrais {
+    font-size: 0.8em;
+    color: bisque;
+}
+
+.pictoGant {
+    font-size: 0.8em;
+    color: bisque;  
+}
 
  .histoire1 {
      padding: 6px;
