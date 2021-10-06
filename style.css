@@ -224,19 +224,19 @@ p{
 /* CSS Barre de navigation */
 
 .logo {
-    width: clamp(100px, 45%, 120px);
+    width: clamp(50px, 45%, 150px);
 }
 
 .marque {
-    width: clamp(100px, 45%, 250px);
+    width: clamp(50px, 45%, 250px);
+    padding-left: 6%;
 }
 
 nav {
      display: flex ;
     background-color:  #1a2b44 ;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 8px;
     height: 200px;
     width: 100%;
     }
@@ -244,12 +244,13 @@ nav {
 
 ul {
         list-style-type: none;
-        font-size: 20px;
+        font-size: 14px;
         display: flex;
         background-color: #1a2b44;
         flex-direction: column;
         gap: 15px;
         color: whitesmoke;
+        box-sizing: border-box;
     }
     
 a {
@@ -341,6 +342,7 @@ h5 {
     gap: 30px;
     background-color: #1a2b44;
     margin: 0%;
+    padding-top: 3%;
 }
 
 
@@ -388,8 +390,11 @@ h5 {
     position: relative;
     width: 300px;
     height: 300px;
-    margin-left: 37%;
-    margin-right: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .child1 {
@@ -401,6 +406,8 @@ h5 {
     opacity: 100%;
     background:#8cb191;
     border-radius: 7%;
+    display: flex;
+    justify-content: center;
 }
 
 .marc {
@@ -413,5 +420,41 @@ h5 {
 }
 
 
+/*mobile first : breakingpoint pour passage en tablette  */
 
+@media only screen and (min-width : 767px) and (max-width : 1023px) {
+    body {
+        background-color: yellow;  
+         
+    }
+
+    .caroussel{
+        background-repeat: no-repeat;
+    }
+
+
+    .caroussel p{
+        font-size: 20px;
+        color: yellowgreen;
+    }
+}
+/*mobile first : breakingpoint pour passage en desktop  */
+
+
+@media only screen and (min-width : 1024px) {
+    
+    body {
+        background-color:red ;   
+    }
+
+    .caroussel{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .caroussel p {
+        font-size: 25px;
+        color: yellowgreen;
+    }
+}
 
