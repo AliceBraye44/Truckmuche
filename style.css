@@ -1,163 +1,179 @@
 body{
-    font-family: Lato, sans-serif;
-    text-align: center;
-}
+        font-family: Lato, sans-serif;
+        text-align: center;
+    }
 
 h2{
-font-size: 60px;
-color: #1a2b44 ;}
+    font-size: 60px;
+    color: #1a2b44 ;}
 
 button {
+        
+        background: #a77252; 
+        color: white;
+        border-radius: 10px;
+        border: none;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        margin-right: auto;
+        margin-left: auto;
     
-    background: #a77252; 
-    color: white;
-    border-radius: 10px;
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    margin-right: auto;
-    margin-left: auto;
-   
-}
+    }
 
 .apropos{
-    margin-left: 5rem;
-    margin-right: 5rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
 
-}
+    }
 .reference{
-    background: #8cb191 ;
-    padding: 3rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    font-style: italic;
-    color: #1a2b44;
-    font-size: 18px;
-}
+        background: #8cb191 ;
+        padding: 3rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-style: italic;
+        color: #1a2b44;
+        font-size: 18px;
+    }
 #quote{
-    text-align: center;
-}
+        text-align: center;
+    }
 
 #signature{
-    text-align: right ;
-}
+        text-align: right ;
+    }
 
 p{
-    padding-left: 1rem;
-    padding-right: 1rem;;
-}
+        padding-left: 1rem;
+        padding-right: 1rem;;
+    }
 
 .caroussel{
-    width: 100%;
-	height: 30rem;
-    display: flex;
-    flex-direction: column; 
-    align-items: flex-end;  
-    justify-content: flex-end;
-    padding-bottom: 2rem;
-    background-image: url("./Images/slide/cookie-slide.jpeg");
-    background-size: cover;
-}
+        width: 100%;
+        height: 30rem;
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-end;  
+        justify-content: flex-end;
+        padding-bottom: 2rem;
+        background-image: url("./Images/slide/cookie-slide.jpeg");
+        background-size: cover;
+    }
 
 .foodtruck{
-    margin-left:auto;
-    margin-right: auto;
-    background-image: url("./Images/slide/foodtruck-slide.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height:30rem;
-    display:flex;
-    align-items: flex-end;
-    padding-bottom: 5rem;
+        margin-left:auto;
+        margin-right: auto;
+        background-image: url("./Images/slide/foodtruck-slide.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height:30rem;
+        display:flex;
+        align-items: flex-end;
+        padding-bottom: 5rem;
 
-}
+    }
 
 
 .products{
-    display:grid;
-    grid-template-columns: auto auto;
-    grid-gap: 5rem;
-    grid-column-gap: 1rem;
-    grid-row-gap: 1rem;
-    padding-left: 10rem;
-    padding-right: 10rem;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-}
+        display:grid;
+        grid-template-columns: auto auto;
+        grid-gap: 5rem;
+        grid-column-gap: 1rem;
+        grid-row-gap: 1rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
 
 .product{
-    height: 20rem; 
-    width: 20rem;
-    border-radius: 7%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        height: 20rem; 
+        width: 20rem;
+        border-radius: 7%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-}
+    }
 
 
 /* CSS HISTORY */
 
 nav {
-    display: flex;
-    background-color: #1a2b44;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px;
-  
-  }
-   
-  ul {
-      list-style-type: none;
-      display: flex;
-      background-color: #1a2b44;
-      flex-direction: column;
-      gap: 6px;
-      color: whitesmoke;
-  }
-  
-  a {
-      color: whitesmoke;
-      text-decoration: none;
-  }
-  
-  a:hover {
-    background-color: #a77252;
-  }
+        display: flex;
+        background-color: #1a2b44;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px;
+    
+    }
+    
+ul {
+        list-style-type: none;
+        display: flex;
+        background-color: #1a2b44;
+        flex-direction: column;
+        gap: 6px;
+        color: whitesmoke;
+    }
+    
+a {
+        color: whitesmoke;
+        text-decoration: none;
+    }
+    
+a:hover {
+        background-color: #a77252;
+    }
 
-  .footer {
-     background-color: #1a2b44;
-  }
+.footer {
+        background-color: #1a2b44;
+    }
 
-  .texteengagement {
-    background-color: #8cb191;
-  }
+.texteengagement {
+        background-color: #8cb191;
+    }
 
 
  /* CSS MENU */
 
 h3 {
-    font-size: 28px;
-    color: #a77252 ;
-
-}
-
+        font-size: 28px;
+        color: #a77252 ;
+    }
+    
 h4 {
-    text-align: left;
-    font-size: 25px;
-    background-color: #8cb191;
-    padding: 20px;
+        text-align: left;
+        font-size: 15px;
+        background-color: #8cb191;
+        padding: 20px;
+    }
+
+p {
+    font-size: 32px;
+    font-weight: lighter;
 }
 
 .produits1 {
-display: flex;
-text-align: left;
-}
+    display: flex;
+    text-align: left;
+
+    }
 
 .produits2 {
-    display: flex;
-    text-align: right;
+        display: flex;
+        text-align: right;
+        
+    }
+
+.text1 {
+    margin: 1%;
+
+}
+
+.text2 {
+    margin: 1%;
+
 }
