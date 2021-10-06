@@ -1,5 +1,30 @@
-/* CSS commun */
+/*mobile first : breakingpoint pour passage en tablette  */
 
+@media only screen and (min-width : 767px) and (max-width : 1023px) {
+    body {
+        background-color: yellow;  
+         
+    }
+
+    .caroussel{
+        background-repeat: no-repeat;
+    }
+}
+/*mobile first : breakingpoint pour passage en desktop  */
+
+
+@media only screen and (min-width : 1024px) {
+    body {
+        background-color:red ;   
+    }
+
+    .caroussel{
+        background-repeat: no-repeat;
+    }
+}
+
+
+/* CSS commun */
 
 body{
         font-family: Lato, sans-serif;
@@ -7,7 +32,7 @@ body{
     }
 
 h2{
-    font-size: 60px;
+    font-size: 34px;
     color: #1a2b44 ;}
 
 button {
@@ -213,21 +238,41 @@ a:hover {
 
  /* CSS MENU */
 
+ /*Notre menu*/
 h3 {
+    font-size: 60px;
+    color: #1a2b44;
+    margin: 0%;
+    padding: 0%;
+    margin-top: 1em;
+}
+
+ /*Pour une bonne tranche de plaisir*/ 
+h4 {
         font-size: 28px;
+        text-align: center;
         color: #a77252 ;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 2em;
     }
     
-h4 {
+ /*Sous-titres catégories*/    
+h5 {
         text-align: left;
-        font-size: 15px;
+        font-size: 2rem;
         background-color: #8cb191;
-        padding: 20px;
-    }>>>>>>> common
-289
+        padding: 3%;
 
+}
 
-p {
+ /*Mise en page produits*/
+.produits1 p {
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+.produits2 p {
     font-size: 32px;
     font-weight: lighter;
 }
@@ -245,16 +290,14 @@ p {
     }
 
 .text1 {
-    margin: 1%;
-
+    margin: 2%;
 }
 
 .text2 {
-    margin: 1%;
-
+    margin: 2%;
 }
 
-* Mise en page du Footer*/ 
+/* Mise en page du Footer*/ 
   .footer {
      background-color: #1a2b44;
      display: flex;
