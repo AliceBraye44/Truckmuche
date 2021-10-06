@@ -223,6 +223,13 @@ p{
 
 /* CSS Barre de navigation */
 
+.logo {
+    width: clamp(100px, 45%, 120px);
+}
+
+.marque {
+    width: clamp(100px, 45%, 250px);
+}
 
 nav {
      display: flex ;
@@ -237,20 +244,24 @@ nav {
 
 ul {
         list-style-type: none;
+        font-size: 20px;
         display: flex;
         background-color: #1a2b44;
         flex-direction: column;
-        gap: 6px;
+        gap: 15px;
         color: whitesmoke;
     }
     
 a {
         color: whitesmoke;
         text-decoration: none;
+        padding: 10px;
+        margin: 8px;
     }
     
 a:hover {
         background-color: #a77252;
+        border-radius: 7%;
     }
 
 
@@ -400,3 +411,7 @@ h5 {
     border-radius: 7%;
     
 }
+
+
+
+
