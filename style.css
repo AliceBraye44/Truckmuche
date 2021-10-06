@@ -170,8 +170,8 @@ p{
   } 
 
 
-  
-/* CSS HISTORY */
+/* CSS Barre de navigation */
+
 
 nav {
      display: flex ;
@@ -254,8 +254,62 @@ p {
 
 }
 
+* Mise en page du Footer*/ 
+  .footer {
+     background-color: #1a2b44;
+     display: flex;
+     justify-content: center;
+     margin-top: none;
+  }
+
+
+  /* CSS corps de la page HISTOIRE */ 
+  .texteengagement {
+    background-color: #8cb191;
+    margin-bottom: none;
+    padding: 6px ;
+ }
+
+ .histoire1 {
+     padding: 6px;
+ }
+
+ .histoire2 {
+     padding: 6px;
+ }
+
+  /* Mise en page IMAGE Marc - Page Histoire*/
+  .parent {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.child1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 100%;
+    background:#8cb191;
+    border-radius: 7%;
+}
+
+.marc {
+    z-index: 1;
+    margin: 30px ;
+    height: 300px;
+    width: 260px;
+    border-radius: 7%;
+    
+}
+
 
 /* bouton scroll */ 
+
 a#cRetour{
     border-radius:3px;
     padding:10px;
@@ -277,6 +331,7 @@ a#cRetour{
     background:rgba(0, 0, 0, 1);
     transition:all ease-in 0.2s;
   }
+
   a#cRetour.cInvisible{
     bottom:-35px;
     opacity:0;
