@@ -63,7 +63,7 @@ p{
 }
 
 
-/* CSS HISTORY */
+/* CSS Barre de navigation*/
 
 nav {
     display: flex;
@@ -92,10 +92,42 @@ nav {
     background-color: #a77252;
   }
 
+  /* Mise en page du Footer*/ 
   .footer {
      background-color: #1a2b44;
+     display: flex;
+     justify-content: center;
+     margin-top: none;
   }
 
+
+  /* CSS corps de la page*/ 
   .texteengagement {
     background-color: #8cb191;
-  }
+    margin-bottom: none;
+ }
+
+  /* Mise en page Marc*/
+  .parent {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+.child1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 100%;
+    background:#8cb191;
+}
+
+.marc {
+    z-index: 1;
+    margin: 30px ;
+    height: 300px;
+    width: 280px;
+}
+
