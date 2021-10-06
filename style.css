@@ -9,9 +9,35 @@
     .caroussel{
         background-repeat: no-repeat;
     }
+
+
+    .caroussel p{
+        font-size: 20px;
+        color: yellowgreen;
+    }
 }
 /*mobile first : breakingpoint pour passage en desktop  */
 
+
+@media only screen and (min-width : 1024px) {
+    
+    body {
+        background-color:red ;   
+    }
+
+    .caroussel{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .caroussel p {
+        font-size: 25px;
+        color: yellowgreen;
+    }
+}
+
+
+/* CSS commun */
 
 @media only screen and (min-width : 1024px) {
     body {
@@ -227,14 +253,6 @@ a:hover {
         background-color: #a77252;
     }
 
-.footer {
-        background-color: #1a2b44;
-    }
-
-.texteengagement {
-        background-color: #8cb191;
-    }
-
 
  /* CSS MENU */
 
@@ -263,8 +281,8 @@ h5 {
         font-size: 2rem;
         background-color: #8cb191;
         padding: 3%;
-
 }
+
 
  /*Mise en page produits*/
 .produits1 p {
@@ -311,7 +329,31 @@ h5 {
     background-color: #8cb191;
     margin-bottom: none;
     padding: 6px ;
+    border-radius: 7%;
  }
+
+ .pictos {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     gap: 30px;
+     justify-content: center;
+ }
+
+ .pictoVegan {
+     font-size: 0.8em;
+     color: bisque;
+ }
+
+ .pictoProduitsFrais {
+    font-size: 0.8em;
+    color: bisque;
+}
+
+.pictoGant {
+    font-size: 0.8em;
+    color: bisque;  
+}
 
  .histoire1 {
      padding: 6px;
@@ -349,39 +391,3 @@ h5 {
     border-radius: 7%;
     
 }
-
-
-/* bouton scroll */ 
-
-a#cRetour{
-    border-radius:3px;
-    padding:10px;
-    font-size:15px;
-    text-align:center;
-    color:#fff;
-    background:rgba(0, 0, 0, 0.25);
-    position:fixed;
-    right:20px;
-    opacity:1;
-    z-index:99999;
-    transition:all ease-in 0.2s;
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    text-decoration: none;
-  }
-  a#cRetour:before{ content: "\25b2"; }
-  a#cRetour:hover{
-    background:rgba(0, 0, 0, 1);
-    transition:all ease-in 0.2s;
-  }
-
-  a#cRetour.cInvisible{
-    bottom:-35px;
-    opacity:0;
-    transition:all ease-in 0.5s;
-  }
-  
-  a#cRetour.cVisible{
-    bottom:20px;
-    opacity:1;
-  }
