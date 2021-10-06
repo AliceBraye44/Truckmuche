@@ -137,22 +137,22 @@ nav {
   }
 
 
-  /* CSS corps de la page*/ 
+  /* CSS corps de la page HISTOIRE */ 
   .texteengagement {
     background-color: #8cb191;
     margin-bottom: none;
-    padding: 3px ;
+    padding: 6px ;
  }
 
  .histoire1 {
-     padding: 3px;
+     padding: 6px;
  }
 
  .histoire2 {
-     padding: 3px;
+     padding: 6px;
  }
 
-  /* Mise en page Marc*/
+  /* Mise en page IMAGE Marc - Page Histoire*/
   .parent {
     position: relative;
     width: 300px;
