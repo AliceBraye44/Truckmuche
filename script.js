@@ -1,12 +1,6 @@
-const sentButton = document.getElementById("sentButton");
-sentButton.onclick = function() {
+const message = "Merci pour votre message!  \n \n Je vous repondrai dans les plus bref délais.  \n Truckemuchement votre,  \n \n Marc"
+  document
+  .getElementById("contactForm").addEventListener('submit', function(event) {
     event.preventDefault();
-    prompt("Merci pour votre message ! ");
-
-};
-
-const scrollOn = document.getElementById("cRetour");
-scrollOn.onclick = function scrollWindow()
-{
-window.top.window.scrollTo(0,0)
-};
+    alert(message);
+  });
