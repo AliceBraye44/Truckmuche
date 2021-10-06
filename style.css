@@ -2,13 +2,13 @@
 
 
 body{
-    font-family: Lato, sans-serif;
-    text-align: center;
-}
+        font-family: Lato, sans-serif;
+        text-align: center;
+    }
 
 h2{
-font-size: 36px;
-color: #1a2b44 ;}
+    font-size: 60px;
+    color: #1a2b44 ;}
 
 button {
     width: clamp(200px, 45%, 1000px);
@@ -56,33 +56,35 @@ p{
 }
 
 .apropos{
-    margin-left: 5rem;
-    margin-right: 5rem;
-
+        margin-left: 5rem;
+        margin-right: 5rem;
 }
 
+
 .foodtruck{
-    width: 100%;
-    height: 200px;
-    margin-bottom: 10%;
+      width: 100%;
+      height: 200px;
+      margin-bottom: 10%;
 }
 
 .reference{
-    background: #8cb191 ;
-    padding: 15%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    font-style: italic;
-    color: #1a2b44;
-    font-size: 18px;
-}
-#quote{
-    text-align: center;
+      background: #8cb191 ;
+      padding: 15%;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      font-style: italic;
+      color: #1a2b44;
+      font-size: 18px;
 }
 
+#quote{
+        text-align: center;
+    }
+
 #signature{
-    text-align: right ;
-}
+        text-align: right ;
+    }
+
 
 
 /* Section NosProduits */ 
@@ -112,6 +114,7 @@ p{
 .jour {
     display: inline-flex;
 }
+
 
 /* NOUS CONTACTER */ 
 
@@ -171,7 +174,7 @@ p{
 /* CSS HISTORY */
 
 nav {
-    display: flex ;
+     display: flex ;
     background-color:  #1a2b44 ;
     justify-content: space-between;
     align-items: center;
@@ -181,34 +184,76 @@ nav {
     }
    
 
+ul {
+        list-style-type: none;
+        display: flex;
+        background-color: #1a2b44;
+        flex-direction: column;
+        gap: 6px;
+        color: whitesmoke;
+    }
+    
+a {
+        color: whitesmoke;
+        text-decoration: none;
+    }
+    
+a:hover {
+        background-color: #a77252;
+    }
 
-  ul {
-      list-style-type: none;
-      display: flex;
-      background-color: #1a2b44;
-      flex-direction: column;
-      gap: 6px;
-      color: whitesmoke;
-  }
-  
-  a {
-      color: whitesmoke;
-      text-decoration: none;
-  }
-  
-  a:hover {
-    background-color: #a77252;
-  }
+.footer {
+        background-color: #1a2b44;
+    }
 
-  .footer {
-     background-color: #1a2b44;
-     padding : 10px;
-     margin-top: 10px;
-  }
+.texteengagement {
+        background-color: #8cb191;
+    }
 
-  .texteengagement {
-    background-color: #8cb191;
-  }
+
+ /* CSS MENU */
+
+h3 {
+        font-size: 28px;
+        color: #a77252 ;
+    }
+    
+h4 {
+        text-align: left;
+        font-size: 15px;
+        background-color: #8cb191;
+        padding: 20px;
+    }>>>>>>> common
+289
+
+
+p {
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+.produits1 {
+    display: flex;
+    text-align: left;
+
+    }
+
+.produits2 {
+        display: flex;
+        text-align: right;
+        
+    }
+
+.text1 {
+    margin: 1%;
+
+}
+
+.text2 {
+    margin: 1%;
+
+}
+
 
 /* bouton scroll */ 
 a#cRetour{
