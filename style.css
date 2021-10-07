@@ -398,11 +398,8 @@ h5 {
         background-repeat: no-repeat;
     }
 
-    .caroussel p {
-        font-size: 20px;
-    }
+    .caroussel p {        color: #8cb191;
 
-    .caroussel h2 {
         font-size: 40px;
         color: #8cb191;
     }
