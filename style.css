@@ -61,9 +61,6 @@ p {
 }
 
 /*section a propos */ 
-.aPropos{
-    margin: 5rem;
-}
 
 
 .foodtruck{
@@ -92,14 +89,11 @@ p {
 }
 
 
-
 /* Section NosProduits */ 
 
 .products{
     display:grid;
     grid-template-columns: auto auto;
-    grid-column-gap: 1rem;
-    grid-row-gap: 1rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
     margin-left: 5%;
@@ -128,6 +122,7 @@ p {
 
 #trouver{
     margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
  
@@ -164,6 +159,11 @@ p {
     margin-left: auto;
     cursor: pointer;
   }
+
+  input[type=submit]:focus {
+    background-color: green;
+  }
+
       /* redéfinition 400 + 2*20 */
 
   
@@ -399,11 +399,12 @@ h5 {
     }
 
     .caroussel p {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .caroussel h2 {
         font-size: 40px;
+        color: #8cb191;
     }
 
    .nosProduits{
@@ -420,7 +421,14 @@ h5 {
         height: 400px; 
     }
 
+    .foodtruck {
+        border-radius: 5%;
+        margin-bottom: 5%;
+    }
 
+    .jour p{
+        font-size: 14px;
+    }
 }
 
 /* breakpoint pour passage en desktop  */
@@ -440,6 +448,8 @@ h5 {
    
     .caroussel h2 {
         font-size: 40px;
+        color: #8cb191;
+
     }
 
     p {
@@ -483,7 +493,20 @@ h5 {
         margin-top: 4rem;
         margin-bottom: 3rem;
     }
- }
+    
+    iframe {
+        margin-bottom: 2rem;
+    }
+    .jour p{
+        font-size: 16px;
+    }
 
-
-
+    .container {
+        padding:5%;
+        width: 100%;
+        max-width: 840px;
+        margin:0 auto;
+        margin-bottom: 5%;
+      } 
+    
+}
