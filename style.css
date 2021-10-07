@@ -256,11 +256,21 @@ h5 {
 display: flex;
 flex-direction: row;
 }
-*
+
 .bloc-container2 {
     display: flex;
     flex-direction: row;
 
+}
+
+.txt1 p {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.txt2 p {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .photo1 {
@@ -272,12 +282,19 @@ width: 50%;
     width: 100%;
 }
 
+.txt1 {
+    text-align: left;
+}
+
+.txt2 {
+    text-align: right;
+}
+
 .txt1, .txt2 {
     width: 50%;
     display: flex;
     flex-direction: column;
-   justify-content: center;
-    text-align: center;
+   justify-content: center
 }   
 
 /* Mise en page du Footer*/ 
@@ -401,18 +418,13 @@ border-radius: 7%;
         margin-right: 10%;
     }
 
-    p {
-        font-size : 120%;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
 
     .caroussel{
         background-repeat: no-repeat;
     }
 
-    .caroussel p {        color: #8cb191;
-
+    .caroussel p {        
+        color: #8cb191;
         font-size: 40px;
         color: #8cb191;
     }
@@ -477,6 +489,9 @@ border-radius: 7%;
         max-width: 70%;
     }
 
+    .photo1 {
+        max-width: 70%;
+    }
 
 }
 
@@ -597,42 +612,54 @@ border-radius: 7%;
       } 
 
     .bloc-container1  {
+        margin-top: 1%;
         display: flex;
-        align-items: center;
+        align-items: center; 
         flex-direction: column;
-        max-width: 50%;
+        max-width: 48%;
         min-width: 100px;
+        border-style: solid;
+        border-color: #a77252;
+        border-radius: 7%;
         flex-wrap: wrap;
     }  
 
     .bloc-container2 {
+        margin-top: 1%;
         display: flex;
         align-items: center;
         flex-direction: column-reverse;
-        max-width: 50%;
+        max-width: 48%;
         min-width: 100px;
+        border-style: solid;
+        border-color: #a77252;
+        border-radius: 7%;
+        flex-wrap: wrap;
     }
     
-    .photo1 img{
+    .photo1 {
         min-width: 100%;
-        max-width: 100%%;
+        max-width: 100%;
+    }
+
+    .photo1 img {
+        border-radius: 7%;
     }
     
-    /*.bloc1 {
-    display: flex;
-    flex-direction: column;
-    }
-
-    .bloc2 {
-    display: flex;
-    flex-direction: column-reverse;
-    }*/
-
     .cookie {
-    display: flex;
-    flex-direction: row; 
-    flex-wrap: wrap;
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap;
     }
 
+    .txt1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .txt2 {
+        width: 100%;
+        text-align: center;
+    }
 
     }
