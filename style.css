@@ -1,53 +1,3 @@
-/*mobile first : breakingpoint pour passage en tablette  */
-
-@media only screen and (min-width : 767px) and (max-width : 1023px) {
-    body {
-        background-color: yellow;  
-         
-    }
-
-    .caroussel{
-        background-repeat: no-repeat;
-    }
-
-
-    .caroussel p{
-        font-size: 20px;
-        color: yellowgreen;
-    }
-}
-/*mobile first : breakingpoint pour passage en desktop  */
-
-
-@media only screen and (min-width : 1024px) {
-    
-    body {
-        background-color:red ;   
-    }
-
-    .caroussel{
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    .caroussel p {
-        font-size: 25px;
-        color: yellowgreen;
-    }
-}
-
-
-/* CSS commun */
-
-@media only screen and (min-width : 1024px) {
-    body {
-        background-color:red ;   
-    }
-
-    .caroussel{
-        background-repeat: no-repeat;
-    }
-}
 
 
 /* CSS commun */
@@ -347,19 +297,26 @@ h5 {
 
 
   /* CSS corps de la page HISTOIRE */ 
+
+  
+
   .texteengagement {
-    background-color: #8cb191;
     margin-bottom: none;
-    padding: 8px ;
+    background-color: #8cb191;
+    padding: 8px;
     border-radius: 7%;
+    margin-left: auto;
+    margin-right: auto;
  }
 
  .pictos {
      display: flex;
      flex-direction: row;
      align-items: center;
-     gap: 30px;
+     gap: 40px;
      justify-content: center;
+     margin-bottom: 2%;
+     margin-top: 8%;
  }
 
  .pictoVegan {
@@ -428,6 +385,12 @@ h5 {
          
     }
 
+    p {
+        font-size : 120%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
     .caroussel{
         background-repeat: no-repeat;
     }
@@ -437,6 +400,18 @@ h5 {
         font-size: 20px;
         color: yellowgreen;
     }
+
+    .pictos {
+        margin-bottom: 0.6%;
+        margin-top: 6%;
+        gap: 60px;
+    }
+
+    .texteengagement {
+        width: 80%;
+        border-radius: 3%;
+    }
+
 }
 /*mobile first : breakingpoint pour passage en desktop  */
 
@@ -445,6 +420,12 @@ h5 {
     
     body {
         background-color:red ;   
+    }
+
+    p {
+        font-size : 130%;
+        margin-left: 15%;
+        margin-right: 15%;
     }
 
     .caroussel{
@@ -456,5 +437,17 @@ h5 {
         font-size: 25px;
         color: yellowgreen;
     }
+
+    .pictos {
+        margin-bottom: 0.6%;
+        margin-top: 6%;
+        gap: 80px;
+    }
+
+    .texteengagement {
+        width: 80%;
+        border-radius: 3%;
+    }
+
 }
 
