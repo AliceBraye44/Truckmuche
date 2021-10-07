@@ -128,6 +128,7 @@ p {
 
 #trouver{
     margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
  
@@ -164,6 +165,11 @@ p {
     margin-left: auto;
     cursor: pointer;
   }
+
+  input[type=submit]:focus {
+    background-color: green;
+  }
+
       /* redéfinition 400 + 2*20 */
 
   
@@ -483,7 +489,20 @@ h5 {
         margin-top: 4rem;
         margin-bottom: 3rem;
     }
- }
+    
+    iframe {
+        margin-bottom: 2rem;
+    }
+    .jour p{
+        font-size: 16px;
+    }
 
-
-
+    .container {
+        padding:5%;
+        width: 100%;
+        max-width: 840px;
+        margin:0 auto;
+        margin-bottom: 5%;
+      } 
+    
+}
