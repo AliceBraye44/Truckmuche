@@ -33,7 +33,8 @@
     <br>
 
     <h2>A propos de nous</h2>    
-    <p> Truckmuche une joyeuse pâtisserie ambulante nantaise, tenue par Marc. Il vous propose des recettes gourmandes, fraîches, faciles à dévorer. Bien sûr c'est du fait maison sans cochonneries dedans! Du goût et du bonheur pour un beau moment de regression. </p>
+    <div class=aPropos> <p> Truckmuche une joyeuse pâtisserie ambulante nantaise, tenue par Marc. Il vous propose des recettes gourmandes, fraîches, faciles à dévorer. Bien sûr c'est du fait maison sans cochonneries dedans! Du goût et du bonheur pour un beau moment de regression. </p>
+    </div>    
     <br>
     <br> 
 
@@ -44,7 +45,7 @@
 
 <section class="nosProduits">
 <h2>Nos produits </h2>
-    <p> Ajouter Phrase, ils sont beaux, ils sont chauds </p>
+    <p> Découvrez notre gammes de produits sucrés tout juste sortis du four. <br> Ils sont prêts à être savourés. </p>
     <div class="products">
         <img class="product" class="chouquette" src="./Images/square/Chouquette_S.png" alt="photo carré de chouquettes"></img>
         <img class="product" class="langueChat" src="./Images/square/LangueChat_S.png" alt="photo carré de langues de chat"></img>
@@ -57,9 +58,10 @@
 
 
 <section class="reference">
-    <p id=quote >"Les gateaux de voyage de Marc m'ont replongé en enfance, c'était ....délicieux !"
-    </p>
-    <p id=signature> Peter Pan</p>
+    <div id=pictoQuote> <span style="font-size: 2em; color: #a77252;"><i class="fas fa-quote-right"></i></span></div>
+    <div> <p id=quote >Les gateaux de voyage de Marc m'ont replongé en enfance, c'était ....délicieux !"
+    </p> <div> 
+    <div> <p id=signature> Peter Pan</p><div> 
 </section>
 
 <br>
@@ -117,17 +119,17 @@
     <div class="container" id="contact">
         <form id="contactForm">
             <label for="fname">Nom & prénom</label>
-            <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+            <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom" required>
   
             <label for="sujet">Sujet</label>
             <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
   
             <label for="emailAddress">Email</label>
-            <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+            <input id="emailAddress" type="email" name="email" placeholder="Votre email" required>
   
   
             <label for="subject">Message</label>
-            <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+            <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px" required></textarea>
   
             <input type="submit" value="Envoyer" id="sentButton">
         </form>
