@@ -298,7 +298,6 @@ h5 {
 
   /* CSS corps de la page HISTOIRE */ 
 
-  
 
   .texteengagement {
     margin-bottom: none;
@@ -307,6 +306,11 @@ h5 {
     border-radius: 7%;
     margin-left: auto;
     margin-right: auto;
+ }
+
+ .titreEngagement {
+     font-size: 30px;
+     color: #1a2b44;
  }
 
  .pictos {
@@ -412,6 +416,29 @@ h5 {
         border-radius: 3%;
     }
 
+    .histoireMarc {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: none;
+        margin-right: 30%; 
+        width: 80%;
+    }
+
+    .parent {
+        width: 1300px;
+    }
+
+    .child1 {
+     width: auto;
+
+    }
+
+    .child2 {
+        width: auto;
+    }
+
+
 }
 /*mobile first : breakingpoint pour passage en desktop  */
 
@@ -445,9 +472,27 @@ h5 {
     }
 
     .texteengagement {
-        width: 80%;
+        width: 75%;
         border-radius: 3%;
     }
 
-}
+    .histoireMarc {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: none;
+        margin-right: 30%; 
+        width: 80%;
+    }
 
+    .parent {
+        width: 600px;
+    }
+
+    .child1 {
+     width: auto;
+    }
+
+    .child2 {
+        width: auto;
+    }
