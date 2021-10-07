@@ -297,7 +297,6 @@ width: 100%;
 
   /* CSS corps de la page HISTOIRE */ 
 
-  
 
   .texteengagement {
     margin-bottom: none;
@@ -308,13 +307,22 @@ width: 100%;
     margin-right: auto;
  }
 
-.pictos {
- display: flex;
- flex-direction: row;
- align-items: center;
- gap: 30px;
- justify-content: center;
-}
+ .titreEngagement {
+     font-size: 30px;
+     color: #1a2b44;
+ }
+
+ .pictos {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     gap: 40px;
+     justify-content: center;
+     margin-bottom: 2%;
+     margin-top: 8%;
+ }
+
+
 
 .pictoVegan {
  font-size: 0.8em;
@@ -372,46 +380,6 @@ width: 260px;
 border-radius: 7%;
 
 }
-
-
-/*mobile first : breakingpoint pour passage en tablette  */
-
-@media only screen and (min-width : 767px) and (max-width : 1023px) {
-body {
-    width: 100%;
-
-}
-
-.caroussel{
-    background-repeat: no-repeat;
-}
-
-
-.caroussel p{
-    font-size: 20px;
-    color: yellowgreen;
-}
-
-}
-
-/*mobile first : breakingpoint pour passage en desktop  */
-
-@media only screen and (min-width : 1024px) {
-
-body {
-    width: 100%; 
-}
-
-.caroussel{
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.caroussel p {
-    font-size: 25px;
-    color: yellowgreen;
-}
-
 
 /*mobile first : breakpoint pour passage en tablette  */
 
@@ -480,6 +448,29 @@ body {
         border-radius: 3%;
     }
 
+    .histoireMarc {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: none;
+        margin-right: 30%; 
+        width: 80%;
+    }
+
+    .parent {
+        width: 1300px;
+    }
+
+    .child1 {
+     width: auto;
+
+    }
+
+    .child2 {
+        width: auto;
+    }
+
+
 }
 
 /* breakpoint pour passage en desktop  */
@@ -536,10 +527,30 @@ body {
     }
 
     .texteengagement {
-        width: 80%;
+        width: 75%;
         border-radius: 3%;
     }
 
+    .histoireMarc {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: none;
+        margin-right: 30%; 
+        width: 80%;
+    }
+
+    .parent {
+        width: 600px;
+    }
+
+    .child1 {
+     width: auto;
+    }
+
+    .child2 {
+        width: auto;
+    }
 
 
     .map{
@@ -580,4 +591,4 @@ body {
         margin:0 auto;
         margin-bottom: 5%;
       } 
-    }}
+    }
