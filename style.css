@@ -239,25 +239,18 @@ h5 {
     font-size: 130%;
     background-color: #8cb191;
     padding: 3%;
-    margin:0;
+    margin-bottom: 0;
+    margin-top: 5%;
 }
 
 /*Produits */
 
 .bloc-container {
-/* display: grid;
-height: 150px;
-grid-template-columns: 1fr 1fr;
-grid-template-rows: 1fr;*/
 display: flex;
 
 }
 
 .photo {
-/* grid-column-start: 1;
-grid-column-end: 2;
-background-image: url("images/Rectangle/CookieClassique_R.png");
-background-size: cover;*/
 width: 50%;
 }
 
@@ -265,155 +258,22 @@ width: 50%;
 width: 100%;
 }
 
-.txt {
-/*grid-column-start: 2;
-grid-column-end: 3;
-text-align: left;*/
-width: 50%;
-display: flex;
-flex-wrap: wrap;
-}
+.txt1, .txt2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   justify-content: center   ;
+}   
 
-/*
+.txt1 {
+    text-align: center;
+   
+}   
+
 .txt2 {
-/* grid-column-start: 1;
-grid-column-end: 2;
+    text-align: center;
 }
 
-.photo2 {
-/*grid-column-start: 2;
-grid-column-end: 3;
-background-image: url("images/Rectangle/CookieCacahuete_R.png");
-background-size: cover;  
-}
-
-.photo3 {
-grid-column-start: 1;
-grid-column-end: 2;
-background-image: url("images/Rectangle/CookiePecan.png");
-background-size: cover;
-}
-
-.txt3 { 
-grid-column-start: 2;
-grid-column-end: 3;
-}
-
-.txt4 {
-grid-column-start: 1;
-grid-column-end: 2;
-}
-
-.photo4 {
-grid-column-start: 2;
-grid-column-end: 3;
-background-image: url("images/Rectangle/Amaretti_R.png");
-background-size: cover;
-}
-
-.photo5 {
-grid-column-start: 1;
-grid-column-end: 2;
-background-image: url("images/Rectangle/Cannele_R.png");
-background-size: cover;
-}
-
-.txt5 {
-grid-column-start: 2;
-grid-column-end: 3;
-
-}
-
-.txt6 {
-grid-column-start: 1;
-grid-column-end: 2;
-}
-
-.photo6 {
-grid-column-start: 2;
-grid-column-end: 3;
-background-image: url("images/Rectangle/Chouquette_R.png");
-background-size: cover;
-}
-
-.photo7 {
-grid-column-start: 1;
-grid-column-end: 2;
-background-image: url("images/Rectangle/FinancierFramboise_R.png");
-background-size: cover;
-}
-
-.txt7 {
-grid-column-start: 2;
-grid-column-end: 3;
-
-}
-
-.txt8 {
-grid-column-start: 1;
-grid-column-end: 2;
-
-}
-
-.photo8{
-
-grid-column-start: 2;
-grid-column-end: 3;
-background-image: url("images/Rectangle/Fianancier_R.png");
-background-size: cover;
-}
-
-.photo9{
-grid-column-start: 1;
-grid-column-end: 2;
-background-image: url("images/Rectangle/LangueChat_R.png");
-background-size: cover;
-
-}
-
-.txt9 {
-grid-column-start: 2;
-grid-column-end: 3;
-}
-
-.txt10 {
-grid-column-start: 1;
-grid-column-end: 2;
-
-}
-
-.photo10{
-grid-column-start: 2;
-grid-column-end: 3;
-background-image: url("images/Rectangle/PetitLu_R.png");
-background-size: cover;
-}
-
-.photo11{
-grid-column-start: 1;
-grid-column-end: 2;
-background-image: url("images/Rectangle/RocherCoco_R.png");
-background-size: cover;
-}
-
-.txt11{
-grid-column-start: 2;
-grid-column-end: 3;
-}
-
-.txt12{
-grid-column-start: 1;
-grid-column-end: 2;
-}
-
-.photo12{
-grid-column-start: 2;
-grid-column-end: 3;
-background-image: url("images/Rectangle/SableBreton_R.png");
-background-size: cover;
-
-}
-*/
 
 /* Mise en page du Footer*/ 
 .footer {
