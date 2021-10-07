@@ -54,10 +54,10 @@ font-size: 14px;
 color: whitesmoke  ;
 }
 
-.foodtruck{
+/*section a propos */ 
 
+.foodtruck{
   width: 100%;
-  height: 200px;
   margin-bottom: 10%;
 }
 
@@ -186,7 +186,7 @@ display: inline-flex;
 }
 
 nav {
-     display: flex ;
+    display: flex ;
     background-color:  #1a2b44 ;
     justify-content: space-around;
     align-items: center;
@@ -411,11 +411,8 @@ border-radius: 7%;
         background-repeat: no-repeat;
     }
 
-    .caroussel p {
-        font-size: 20px;
-    }
+    .caroussel p {        color: #8cb191;
 
-    .caroussel h2 {
         font-size: 40px;
         color: #8cb191;
     }
