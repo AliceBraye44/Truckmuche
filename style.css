@@ -325,7 +325,6 @@ width: 50%;
   #titreHistoire {
       display: flex;
       justify-content: center;
-      padding-left: 25%;
   }
 
   .texteengagement {
