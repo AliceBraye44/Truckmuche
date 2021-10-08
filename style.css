@@ -324,7 +324,7 @@ width: 50%;
 
   #titreHistoire {
       display: flex;
-      justify-content: left;
+      justify-content: center;
       padding-left: 25%;
   }
 
