@@ -282,12 +282,14 @@ width: 50%;
     width: 100%;
 }
 
-.txt1 {
+.txt1 p {
     text-align: left;
+    font-size: 13px;
 }
 
-.txt2 {
+.txt2 p {
     text-align: right;
+    font-size: 13px;
 }
 
 .txt1, .txt2 {
