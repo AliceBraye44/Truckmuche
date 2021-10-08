@@ -164,7 +164,7 @@ display: inline-flex;
     /* Ajouter box-sizing */
     box-sizing : border-box;
     border-radius: 7%;
-    background-color:#f2f2f2;
+    background-color:#DCDCDC;
     padding:10%;
     width: 100%;
     /* redéfinition 400 + 2*20 */
