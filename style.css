@@ -609,32 +609,40 @@ border-radius: 7%;
         max-width: 840px;
         margin:0 auto;
         margin-bottom: 5%;
+        
       } 
+
+    h5 {
+        text-align: center;
+
+    }
 
     .bloc-container1  {
         margin-top: 1%;
         display: flex;
         align-items: center; 
         flex-direction: column;
-        max-width: 48%;
+        max-width: 35%;
         min-width: 100px;
         border-style: solid;
         border-color: #a77252;
         border-radius: 7%;
         flex-wrap: wrap;
+        margin: 3%;
     }  
 
     .bloc-container2 {
         margin-top: 1%;
         display: flex;
-        align-items: center;
+        align-items: center;    
         flex-direction: column-reverse;
-        max-width: 48%;
+        max-width: 35%;
         min-width: 100px;
         border-style: solid;
         border-color: #a77252;
         border-radius: 7%;
         flex-wrap: wrap;
+        margin: 3%;
     }
     
     .photo1 {
@@ -650,6 +658,7 @@ border-radius: 7%;
         display: flex;
         flex-direction: row; 
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .txt1 {
