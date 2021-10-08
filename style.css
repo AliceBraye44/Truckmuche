@@ -177,11 +177,11 @@ display: inline-flex;
 /* CSS Barre de navigation */
 
 .logo {
-    width: clamp(50px, 45%, 150px);
+    width: clamp(20px, 30%, 100px);
 }
 
 .marque {
-    width: clamp(50px, 45%, 250px);
+    width: clamp(80px, 70%, 250px);
     padding-left: 6%;
 }
 
@@ -190,7 +190,7 @@ nav {
     background-color:  #1a2b44 ;
     justify-content: space-around;
     align-items: center;
-    height: 200px;
+    height: 150px;
     width: 100%;
     }
    
@@ -201,7 +201,7 @@ ul {
         display: flex;
         background-color: #1a2b44;
         flex-direction: column;
-        gap: 15px;
+        gap: 8px;
         color: whitesmoke;
         box-sizing: border-box;
     }
@@ -280,7 +280,6 @@ width: 100%;
      background-color: #1a2b44;
      display: flex;
      justify-content: center;
-     margin: 0%;
      color: rgba(169, 169, 169, 0.226);
   }
 
@@ -290,13 +289,19 @@ width: 100%;
     justify-content: center;
     gap: 30px;
     background-color: #1a2b44;
-    margin: 0%;
     padding-top: 3%;
+    margin-top: 1%;
+    height: auto;
 }
 
 
   /* CSS corps de la page HISTOIRE */ 
 
+  #titreHistoire {
+      display: flex;
+      justify-content: left;
+      padding-left: 25%;
+  }
 
   .texteengagement {
     margin-bottom: none;
@@ -384,11 +389,7 @@ border-radius: 7%;
 /*mobile first : breakpoint pour passage en tablette  */
 
 @media only screen and (min-width : 767px) and (max-width : 1023px) {
-    body {
-
-        background-color: yellow;   
-    }
-
+    
     p {
         font-size: 120%; 
         margin-left: 10%;
@@ -470,6 +471,10 @@ border-radius: 7%;
         width: auto;
     }
 
+    ul {
+        font-size: 18px;
+    }
+
 
 }
 
@@ -477,10 +482,7 @@ border-radius: 7%;
 
 
 @media only screen and (min-width : 1024px) {
-    body {
-        background-color:red ;   
-    }
-
+   
     p {
         font-size : 130%;
         margin-left: 15%;
@@ -534,10 +536,13 @@ border-radius: 7%;
     .histoireMarc {
         display: flex;
         align-items: center;
-        justify-content: space-around;
         margin-left: none;
         margin-right: 30%; 
         width: 80%;
+    }
+
+    .histoire1 {
+        padding-left: 10%;
     }
 
     .parent {
@@ -591,4 +596,10 @@ border-radius: 7%;
         margin:0 auto;
         margin-bottom: 5%;
       } 
+
+      ul {
+          font-size: 18px;
+          display: flex;
+          flex-direction: row;
+      }
     }
